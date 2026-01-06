@@ -401,8 +401,8 @@
 }
 
 %%% ToC What to do before figure/table entires
-\renewcommand{\cftbeforefigskip}{\singleSpace}
-\renewcommand{\cftbeforetabskip}{\singleSpace}
+\renewcommand{\cftbeforefigskip}{\dimexpr\doubleSpace-\singleSpace\relax}
+\renewcommand{\cftbeforetabskip}{\dimexpr\doubleSpace-\singleSpace\relax}
 
 %%% ToC Fix some spacing
 \preto\section{                                                                 % Double space between chapter and first section
