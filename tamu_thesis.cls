@@ -455,7 +455,7 @@
     A \the\PaperType{}\\by\\\MakeUppercase{\the\FullName}                       % Paper type and name
     \vskip\titleSpacing
     \begin{singlespace}                                                         % Print the next section in single space
-      Submitted to the Office of Graduate and Professional Studies of \\
+      Submitted to the Graduate and Professional School of \\
       Texas A\&M University \\
       in partial fulfillment of the requirements for the degree of \\
     \end{singlespace}                                                           % End single spacing
