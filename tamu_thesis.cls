@@ -388,15 +388,15 @@
 
 %%% ToC After title information
 \renewcommand{\cftaftertoctitle}{                                               % Adds 'Page' above the page number in TOC
-  \hfill\mbox{}\vskip2\doubleSpace
+  \hfill\mbox{}\vskip2\singleSpace
   \hfill\normalfont{Page}
 }
 \renewcommand{\cftafterloftitle}{                                               % Add 'FIGURE' (left justified) and 'Page' (right justified) after LoF Title
-  \hfill\mbox{}\vskip2\doubleSpace
+  \hfill\mbox{}\vskip2\singleSpace
   {\normalfont FIGURE}\hfill{\normalfont Page}
 } 
 \renewcommand{\cftafterlottitle}{                                               % Add 'TABLE' (left justified) and 'Page' (right justified) after LoT Title
-  \hfill\mbox{}\vskip2\doubleSpace
+  \hfill\mbox{}\vskip2\singleSpace
   \normalfont{TABLE}\hfill{\normalfont Page} 
 }
 
